@@ -1,0 +1,268 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <title>Moto | Home</title>
+    <!--Ion Icons-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <!--Our own stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <!-------------START HERSER----------->
+   <div class="hero">
+    
+              <div class="nav-bar">
+                
+                <div class="nav-logo">
+                  <img src="images/helmet.png" alt="">
+                </div>
+
+                <div class="nav-links" id="nav-links">
+                  <i class="fa fa-times"  onclick="closeMenu()"></i>
+                  <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Galerie</li></a>
+                    <a href="#"><li>About</li></a>
+                    
+                    <a href="#"><li>Contact</li></a>
+                  </ul>
+                  <a href="inscription.html"><button type="button" class="btn">SIGN UP</button></a>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+              </div> 
+              
+              <div class="banner-title">
+                <h2>LA PASSION <br>DE LA MOTO</h2>
+                <button type="button" class="btn">EXPLORE</button>
+              </div>
+
+              <div class="vertical-bar">
+                <div class="search-icon">
+                  <i class="fa fa-list"></i>
+                  <i class="fa fa-search"></i>
+                </div>
+                <div class="social-icons">
+                  <i class="fa fa-facebook-f"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-instagram"></i>
+                  
+                </div>
+              </div>
+              
+   </div>
+   <!-------------END HERSER----------->
+
+   <!-------------START CONTAINER----------->
+
+    <!--image slide--> 
+    
+    
+
+   <div class="slideshow-container">
+    <div class="slides ">
+
+        <div><img src="images/m2.jpg" width="75%" height="450px" ></div>
+    </div>
+    <div class="slides">
+
+        <div><img src="images/m1.jpg" width="75%" height="450px"></div>
+    </div>
+    <div class="slides">
+
+        <div><img src="images/m5.jpg" width="75%" height="450px"></div>
+    </div>
+    <div class="slides">
+
+        <div><img src="images/scoter1.jpg" width="75%" height="450px"></div>
+    </div>
+    <div class="slides">
+
+        <div><img src="images/m2.jpg" width="75%" height="450px"></div>
+    </div>
+    <a class="prev" onclick="plusIndex(+1)">&#10094;</a>
+    <a class="next" onclick="plusIndex(-1)">&#10095;</a>
+
+</div>
+  
+  <!---div titre de produits---> 
+  <div class="titre">
+  
+   <div class="titre2"></div></div>
+   <div class="titre1"> <h3>PRODUITS</h3></div>
+  <!---procuct--->   
+  <div class="con1">
+   <div class="container">
+    <div class="imgBx">
+      <img src="images/scoter1.jpg" alt="" />
+    </div>
+    <div class="details">
+      <div class="content">
+        <h2>LES SCOOTERS</h2>
+        <p>
+          DES SCOOTERS AUX FINITIONS RAFFINÉS, VÉRITABLE PLAISIR AU GUIDON
+        </p>
+        <a href="details2.html"><button>détails du produit</button></a>
+        <a href="resirvation.html"><button>réservation</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="imgBx">
+      <img src="images/m1.jpg" alt="" />
+    </div>
+    <div class="details">
+      <div class="content">
+        <h2>LES CYCLOMOTEURS</h2>
+        <p>
+          DES MOTOS PRATIQUES, UTILES ET ROBUSTES POUR DES UTILISATIONS JOURNALIÈRES
+        </p>
+        <a href="details.html"><button>détails du produit</button></a>
+        <button>réservation</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="imgBx">
+      <img src="images/m2.jpg" alt="" />
+    </div>
+    <div class="details">
+      <div class="content">
+        <h2>LES MOTOCYCLES</h2>
+        <p>
+          PUISSANCE, RAPIDITÉ ET AGILITÉ,
+          IDÉAL POUR LES LONGS TRAJETS
+        </p>
+        <a href="details.html"><button>détails du produit</button></a>
+        <button>réservation</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="imgBx">
+      <img src="images/m5.jpg" alt="" />
+    </div>
+    <div class="details">
+      <div class="content">
+        <h2>LES TRICYCLES</h2>
+        <p>
+          UNE MANIABILITÉ PARFAITE, NOUS PENSONS A VOUS.
+        </p>
+        <a href="details.html"><button>détails du produit</button></a>
+        <button>réservation</button>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="con2">
+    <div>
+        <img src="images/im1.jpg">
+    </div>
+    <div>
+        <img src="images/im2.jpg">
+    </div>
+    <div>
+        <img src="images/im3.jpg">
+    </div>
+</div> -->
+  </div>
+
+      <!--start footer-->
+      <div class="ft">
+        <div class="ft1con">
+        <input type="text" placeholder="enter your email">
+        <button type="button">send</button>
+        </div>
+      </div>
+     
+  
+      <div class="footer">
+  
+      <div class="f1">
+        <img src="images/helmet.png" width="60px" height="60px" style="margin-bottom: 20px;">
+       <p>LA PASSION
+        DE LA MOTO. </p>
+      </div>
+      
+      <div class="f2">
+          
+          <ul>
+              <div class="h2"><h2>Quick Links</h2></div>
+              <li><a href="#"> <i class="fa fa-arrow-right"></i>Home</a></li>
+              <li><a href="#"> <i class="fa fa-arrow-right"></i>About US</a></li>
+              <li><a href="#"> <i class="fa fa-arrow-right"></i>Services</a></li>
+              <li><a href="#"> <i class="fa fa-arrow-right"></i>Promo</a></li>
+              <li><a href="#"> <i class="fa fa-arrow-right"></i>Gallery</a></li>
+              <li><a href="#"> <i class="fa fa-arrow-right"></i>Contact</a></li>
+          </ul>
+          
+       </div>
+   
+       <div class="f3">
+        <div><h2>Contact us</h2></div>
+        <p>Feel free to get in touch with us via phone or send<br>
+          us a message</p>
+        <h3>+1 800 123 1234</h3>
+        </div>
+      </div>
+  
+      <div class="lastfooter">
+        <div class="lastft">
+          <div class="lastspan">@Copyright 2020. All Right Reserved</div>
+          <div class="lastul">
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+   
+  <script>
+
+// ------responsive menu 
+    var show = document.getElementById("nav-links");
+    function showMenu(){
+      show.style.right = "0";
+    }
+
+    function closeMenu(){
+      show.style.right = "-200px";
+    }
+
+
+// ----------slider images -------------
+    var slideIndex = 1;
+
+showImage(slideIndex);
+
+function plusIndex(n){
+    showImage(slideIndex += n);
+}
+
+function showImage(n){
+    var slide = document.getElementsByClassName("slides");
+
+    if ( n > slide.length) { slideIndex = 1};
+    if ( n < 1) {slideIndex = slide.length};
+
+    for (var i = 0; i < slide.length; i++){
+        slide[i].style.display = "none";
+    };
+    slide[slideIndex-1].style.display = "block";
+}
+    </script>
+</body>
+</html>
