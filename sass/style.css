@@ -240,7 +240,7 @@ body {
 
 .titre1 h3 {
   position: absolute;
-  margin-top: 15px;
+  margin-top: 6px;
   margin-left: 67px;
 }
 
@@ -273,7 +273,6 @@ body {
     font-size: 21px;
   }
   .titre1 h3 {
-    margin-top: 8px;
     margin-left: 17px;
   }
   .titre2 {
@@ -411,47 +410,32 @@ body {
 }
 
 .ft {
-  background-image: url(images/m2.jpg);
-  height: 120px;
   padding: 2%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 80px;
 }
 
 .ft1con {
   display: flex;
-  flex-wrap: wrap;
   width: 400px;
   vertical-align: middle;
   margin: auto;
 }
 
 .ft1con input {
-  flex-basis: 70%;
-  height: 57px;
-  width: 300px;
+  height: 39px;
+  width: 200px;
   text-align: center;
 }
 
 .ft1con button {
-  flex-basis: 25%;
   background: #C49D48;
   border: none;
-  height: 61px;
-  width: 100px;
+  height: 43px;
+  width: 67px;
   color: #fff;
   font-weight: bolder;
   text-align: center;
-}
-
-@media (max-width: 900px) {
-  .ft1con input {
-    flex-basis: 100%;
-    height: 61px;
-  }
-  .ft1con button {
-    flex-basis: 100%;
-  }
 }
 
 .footer {
@@ -464,6 +448,7 @@ body {
 .footer p {
   font-size: 13px;
   font-family: sans-serif;
+  margin-bottom: 20px;
 }
 
 .f1 {
@@ -484,7 +469,7 @@ body {
 }
 
 .f3 p {
-  color: #A29D9D;
+  color: #616161;
   margin-bottom: 15px;
 }
 
@@ -495,7 +480,7 @@ body {
 
 .footer h2 {
   margin-bottom: 30px;
-  color: #688095;
+  color: #C49D48;
   font-family: Arial;
   font-size: 20px;
 }
@@ -507,7 +492,7 @@ body {
 
 .f2 ul a {
   text-decoration: none;
-  color: #AAA9A9;
+  color: #616161;
 }
 
 .f2 ul li a:hover {
@@ -520,12 +505,12 @@ body {
 }
 
 .lastft {
-  background: #688095;
+  background: #C49D48;
   width: 100%;
   height: 30px;
   display: flex;
   flex-wrap: wrap;
-  color: #CCCCCC;
+  color: black;
 }
 
 .lastul ul li {
